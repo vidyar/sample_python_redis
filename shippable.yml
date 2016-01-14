@@ -9,3 +9,7 @@ script:
 notifications:
   email:
     - exampleone@org.com
+branches:
+ only:
+   - master
+   - testing01
