@@ -6,6 +6,7 @@ services:
 install: pip install -r requirements.txt
 script:
  - python sample.py
+
 notifications:
   email:
     - exampleone@org.com
